@@ -537,4 +537,11 @@ footer {
     .section-title {
         font-size: 2rem;
     }
+
+    @media (max-width: 320px)
+    {
+        .map-container{
+            width: 50%;
+        }
+    }
 }
