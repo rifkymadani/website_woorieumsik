@@ -87,8 +87,10 @@ body {
 }
 
 .navbar-logo {
-    height: 50px;
+    height: 45px;
     width: auto;
+    object-fit: cover;
+    border-radius: 50%;
 }
 
 .korean-text {
@@ -191,15 +193,16 @@ body {
 }
 
 .hero-title {
-    font-size: 4.5rem;
+    font-size: 3.5rem;
     font-weight: 800;
+    padding-top: 4rem;
     margin-bottom: 1rem;
     color: var(--dark-text);
 }
 
 .hero-subtitle {
     font-size: 1.3rem;
-    margin-bottom: 2rem;
+    margin-bottom: 5rem;
     color: rgba(243, 241, 238, 0.85);
 }
 
